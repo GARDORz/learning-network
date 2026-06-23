@@ -15,7 +15,11 @@
       "Bash(npx tsc *)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git -c user.email=\"pongsakorn135600@gmail.com\" -c user.name=\"pongs\" commit -m \"feat: scaffold Next.js 16 + Tailwind v4 dark theme\")"
+      "Bash(git -c user.email=\"pongsakorn135600@gmail.com\" -c user.name=\"pongs\" commit -m \"feat: scaffold Next.js 16 + Tailwind v4 dark theme\")",
+      "Bash(git -c user.email=\"pongsakorn135600@gmail.com\" -c user.name=\"pongs\" commit -m \"feat: add progress store and content loader\")",
+      "Bash(git -c user.email=\"pongsakorn135600@gmail.com\" -c user.name=\"pongs\" commit -m \"feat: add content for all 6 modules\")",
+      "Bash(npm run *)",
+      "Bash(git -c user.email=\"pongsakorn135600@gmail.com\" -c user.name=\"pongs\" commit -m \"feat: add all UI components, pages, and full site build\")"
     ]
   }
 }
