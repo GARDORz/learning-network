@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash *)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Read(//c/Users/pongs/**)",
+      "Bash(npx create-next-app@latest webnetwork-tmp --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cp \"C:/Users/pongs/webnetwork-tmp/package.json\" \"C:/Users/pongs/webnetwork/\")",
+      "Bash(cp \"C:/Users/pongs/webnetwork-tmp/package-lock.json\" \"C:/Users/pongs/webnetwork/\")",
+      "Bash(cp \"C:/Users/pongs/webnetwork-tmp/next.config.ts\" \"C:/Users/pongs/webnetwork/\")",
+      "Bash(cp \"C:/Users/pongs/webnetwork-tmp/tsconfig.json\" \"C:/Users/pongs/webnetwork/\")",
+      "Bash(cp \"C:/Users/pongs/webnetwork-tmp/postcss.config.mjs\" \"C:/Users/pongs/webnetwork/\")",
+      "Bash(npm install *)",
+      "Bash(mkdir -p \"app/module/[moduleId]\" \"app/lesson/[lessonId]\")",
+      "Bash(npx tsc *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
